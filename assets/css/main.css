@@ -305,3 +305,43 @@ select {
   border-radius: 0 150px 150px 0;
 
 }
+
+/* FAQ CONFIG */
+
+.faq {
+  margin-bottom: 10px;
+}
+
+.question {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.answer {
+  display: none;
+  margin-top: 5px;
+}
+
+/* FOOTER */
+
+.footer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+
+}
+
+.title-social-media{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+}
+
+.logo-social-media{
+  width: 25px;
+}
