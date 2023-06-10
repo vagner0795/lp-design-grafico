@@ -1,8 +1,10 @@
 :root {
   --font-montserrat: "Montserrat", sans-serif;
+  --font-poppins: "Poppins", sans-serif;
   --color-primary: #0c1137;
   --color-secundary: #00dbff;
   --color-third: #0061ff;
+  --color-forty:#11163d ;
   --color-light: #fff;
 }
 
@@ -13,7 +15,7 @@
 }
 
 body {
-  font-family: var(--font-montserrat);
+  font-family: var(--font-poppins);
   color: var(--color-light);
 }
 

@@ -26,7 +26,7 @@ span {
 }
 
 .title-header {
-  font-size: 2rem;
+  font-size: 35px;
 }
 
 .line {
@@ -40,16 +40,19 @@ span {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  font-size: 1.5rem;
   width: 70%;
   margin-top: 4rem;
   margin-bottom: 1rem;
-
-
 }
 
-/* FORM CONFIG */
-.container-form {
+.title-main{
+  font-size: 35px;
+}
+
+
+
+/* FORM CONFIG START*/
+.container-form-start {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -57,14 +60,15 @@ span {
   gap: 4rem;
 }
 
-.title-container-form {
-  width: 40%;
+.title-container-form-start {
+  width: 60%;
   text-align: center;
-  font-size: 1.75rem;
-  line-height: 2rem;
+  font-size: 25px;
+  line-height: 30px;
+  font-weight: 400;
 }
 
-.form-box {
+.form-box-start {
   width: fit-content;
   padding: 2rem;
   border-radius: 1rem;
@@ -73,7 +77,6 @@ span {
   justify-content: center;
   gap: 20px;
   align-items: center;
-  /* background-color: var(--color-third); */
   border: 1px solid var(--color-light);
 }
 
@@ -110,7 +113,7 @@ select {
   cursor: pointer;
   font-weight: 600;
   border-radius: 0.5rem;
-  font-size: 1rem;
+  font-size: 18px;
   margin-top: 1rem;
 }
 
@@ -133,13 +136,13 @@ select {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 3%;
+  margin-top: 4%;
 
-  gap: 30px;
+  gap: 50px;
 }
 
 .title-about {
-  font-size: 2rem;
+  font-size: 35px;
 }
 
 .container-img-and-paragraph {
@@ -152,10 +155,10 @@ select {
 
 .paragraph-about {
   width: 600px;
-  font-weight: 600;
+  font-weight: 400;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 25px;
+  line-height: 40px;
 }
 
 .img-about {
@@ -165,22 +168,27 @@ select {
 /* DESIGNER DESCRIPTION AND SERVICES CONFIG */
 .container-designer {
   display: flex;
+  width: 100%;
   justify-content: center;
   align-items: center;
-  padding-left: 10%;
+  gap: 50px;
 }
-
+.title-designer{
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 20px;
+}
 .paragraph-about-2 {
   width: 600px;
-  font-weight: 700;
+  font-weight: 400;
   text-align: center;
-  font-size: 1.5rem;
-  line-height: 2rem;
+  font-size: 22px;
+  line-height: 30px;
   margin-bottom: 4rem;
 }
 
 .image-designer-pc {
-  height: 500px;
+  height: 400px;
 }
 
 .services {
@@ -196,22 +204,24 @@ select {
 
 .card {
   border: 1px solid var(--color-third);
-  padding: 2rem;
+  padding: 30px;
   width: 600px;
   border-radius: 2rem;
 }
 
-.card-image{
+.card-image {
   height: 200px;
   width: 200px;
+  border-radius: 10px;
 }
 
 .title-card {
   text-align: center;
+  font-size: 25px;
 }
 
-.paragraph-card{
-  font-size: 1rem;
+.paragraph-card {
+  font-size: 20px;
 }
 
 .box-card {
@@ -231,7 +241,7 @@ select {
   gap: 4rem;
   margin: 4rem auto;
 }
-  
+
 
 .social-impact-title-container {
   display: flex;
@@ -240,6 +250,15 @@ select {
   align-items: center;
   gap: 1rem;
 }
+.impact-title{
+  font-size: 35px;
+
+}
+
+.impact-subtitle{
+  font-size: 30px;
+
+}
 
 .impact-banner-1 {
   display: flex;
@@ -247,17 +266,23 @@ select {
   gap: 2rem;
   justify-content: center;
 }
+
 .impact-banner-2 {
   display: flex;
   align-items: center;
   gap: 2rem;
   justify-content: center;
 }
+
 .impact-banner-3 {
   display: flex;
   align-items: center;
   gap: 2rem;
   justify-content: center;
+}
+
+.title-social-impact {
+  font-size: 30px;
 }
 
 .impact-texts-container-1 {
@@ -285,10 +310,19 @@ select {
   text-align: left;
 }
 
+.title-social-impact{
+  font-size: 25px;
+}
+
+.text-social-impact{
+  font-size: 20px;
+}
+
 .social-impact-img-1 {
   height: 250px;
   width: 400px;
   border-radius: 0 150px 150px 0;
+  object-fit: cover;
 
 }
 
@@ -296,6 +330,8 @@ select {
   height: 250px;
   width: 400px;
   border-radius: 150px 0 0 150px;
+  object-fit: cover;
+
 
 }
 
@@ -303,9 +339,64 @@ select {
   height: 250px;
   width: 400px;
   border-radius: 0 150px 150px 0;
+  object-fit: cover;
+
 
 }
 
+/* FORM CONFIG END*/
+.container-form-end {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+.title-container-form-end {
+  width: 60%;
+  text-align: center;
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: 400;
+}
+
+.form-box-end {
+  width: 800px;
+  padding: 60px 0;
+  border-radius: 1rem;
+  border: none;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+  border: 1px solid var(--color-light);
+}
+.form-end {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+
+}
+
+.input-form-end {
+  padding: 20px 0;
+  padding-left: 10px;
+  border-radius: 0.5rem;
+  border: none;
+  width: 600px;
+  font-size: 18px;
+
+}
+
+.select-form-end {
+  padding: 20px 0;
+  font-size: 18px;
+  padding-left: 10px;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  outline: none;
+}
 /* FAQ CONFIG */
 
 .faq {
@@ -322,26 +413,88 @@ select {
   margin-top: 5px;
 }
 
-/* FOOTER */
-
-.footer{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
-
+.title{
+  font-size: 25px;
 }
 
-.title-social-media{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 2rem;
+.question{
+  font-size: 20px;
+  margin-left: 10px;
   text-align: center;
 }
 
-.logo-social-media{
-  width: 25px;
+/* FOOTER */
+
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  margin-bottom: 200px;
+
+}
+
+.title-social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  text-align: center;
+  font-size: 18px;
+}
+
+.subtitle-social-media{
+  font-size: 22px;
+}
+
+
+.container-text-social-media{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  
+}
+
+.social-media {
+  display: flex;
+  gap: 20px;
+  cursor: pointer;
+}
+
+.card-social-media {
+  height: 150px;
+  width: 120px;
+  border: 1px solid var(--color-light);
+  border-radius: 10px;
+  padding: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+  text-transform: uppercase;
+  opacity: .5;
+
+}
+
+.card-social-media:hover {
+  opacity: 1;
+  transition: all 0.5s ease-in-out;
+
+}
+
+.card-social-media:hover {
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+  -webkit-transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+  transition-timing-function: cubic-bezier(0.47, 2.02, 0.31, -0.36);
+}
+
+
+.logo-social-media {
+  width: 32px;
 }
