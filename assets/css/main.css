@@ -207,6 +207,7 @@ select {
   padding: 30px;
   width: 600px;
   border-radius: 2rem;
+  background-color: transparent;
 }
 
 .card-image {
