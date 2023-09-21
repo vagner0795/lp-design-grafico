@@ -25,7 +25,7 @@ O projeto trata-se de uma Landing Page que será usada na captação de Leads pa
 ## Ver o Projeto: 
 
 <a 
-href="https://vagner0795.github.io/lp-design-grafico/" target="_blank">Abrir Projeto✅</a>
+href="https://lp-designgrafico.netlify.app/" target="_blank">Abrir Projeto✅</a>
 
 ## 🤝 Colaboradores
 
